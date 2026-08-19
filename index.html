@@ -744,7 +744,7 @@
   // July 26 00:00 of the relevant year and end is July 27 00:00 that year.
   function getBirthdayWindow(now){
     var year = now.getFullYear();
-    var start = new Date(year, 6, 26, 0, 0, 0);
+    var start = new Date(year, 8, 20, 0, 0, 0);
     var end = new Date(year, 6, 27, 0, 0, 0);
     if(now >= end){
       start = new Date(year + 1, 6, 26, 0, 0, 0);
